@@ -20,7 +20,7 @@ Every participant is assumed to travel back to their departure location with the
   
 ## 3. Mode of transport
 
-Rail is assumed for all journeys with distances of less than 700km. Planes are assumed for longer distances. Short haul is defined as distances of less than 1500km, longer distances are long haul.
+Rail is assumed for all journeys with distances of less than 700km. Airplanes are assumed for longer distances. Short-haul is defined as distances of less than 1500km, longer distances are long-haul.
 
 ## 4. Carbon emissions
 
