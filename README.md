@@ -3,7 +3,7 @@ How much carbon dioxide does research on climate change emit?
 
 ## Summary
 
-16,273 scientists from 113 countries [[1](https://egu2019.eu/#CountryStatistics)] participated in the [EGU General Assembly 2019](https://www.egu2019.eu/) in Vienna, Austria. We estimate that these scientists travelled in total 94 million km to Vienna and back, which emitted 22,302 tC02e, an average of ca 1.4 tCO2e per scientist. 86% of these carbon emissions result from long-haul flights (>1500km), 13% from short-haul (between 700 and 1500km) and <1% from rail journeys (<700km). Scientists from China and the United States are responsible for 40% of emissions. One scenario to reduce the emissions is to replace short-haul flights by rail journeys, which reduces the carbon footprint by 11.5% down to 19,750 tCO2e. In this scenario contributions from Germany, UK, France, Italy, Benelux, Scandinavia as well as Eastern European countries are reduced by a factor of 7, resulting from the accordingly lower carbon emissions of trains compared to airplanes.
+16,273 scientists from 113 countries participated in the [EGU General Assembly 2019](https://egu2019.eu/#CountryStatistics) in Vienna, Austria. We estimate that these scientists travelled in total 94 million km to Vienna and back, which emitted 22,302 tC02e, an average of ca 1.4 tCO2e per scientist. 86% of these carbon emissions result from long-haul flights (>1500km), 13% from short-haul (between 700 and 1500km) and <1% from rail journeys (<700km). Scientists from China and the United States are responsible for 40% of emissions. One scenario to reduce the emissions is to replace short-haul flights by rail journeys, which reduces the carbon footprint by 11.5% down to 19,750 tCO2e. In this scenario contributions from Germany, UK, France, Italy, Benelux, Scandinavia as well as Eastern European countries are reduced by a factor of 7, resulting from the accordingly lower carbon emissions of trains compared to airplanes.
 
 # 1. Introduction
 
@@ -12,7 +12,7 @@ How much carbon dioxide does research on climate change emit?
 # 2. Results
 ![](https://github.com/milankl/CarbonFootprintEGU/blob/master/plots/world.png)
 
-Figure 1: The journeys of all 16,273 scientists are illustrated on an equi-distant map, which preserves the distances with respect to Vienna. Line thicknesses are weighted by the amount of participants per country. Capital cities / largest cities are assumed as the departure location, with a few exceptions (see Methods).
+Figure 1: The journeys of all 16,273 scientists are illustrated on an equi-distant map, which preserves the distances with respect to Vienna. Line thicknesses are weighted by the amount of participants per country. Capital cities / largest cities are assumed as the departure location, with a few exceptions (see Methods). The total distance travelled is ca 94 million km.
 
 ![](https://github.com/milankl/CarbonFootprintEGU/blob/master/plots/CO2_permode.png)
 
