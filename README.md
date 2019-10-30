@@ -20,7 +20,7 @@ Figure 2: a) Splitting the total carbon footprint of 22302 tCO2e into the modes 
 
 ![](https://github.com/milankl/CarbonFootprintEGU/blob/master/plots/CO2_percountry.png)
 
-Figure 3: a) China (1194 scientists) and USA (1068) are the biggest contributors, due to large number of participants and large distances to Vienna. Although many scientists come from Germany (2587), UK (1355), Italy (1191), France (1151) their contribution is minor due to short distances to Vienna, despite short-haul flights. On the other hand, 51 scientists (0.3% of participants) from New Zealand contribute 2% of the overall carbon footprint.
+Figure 3: a) China (1194 scientists) and USA (1068) are the biggest contributors, due to large number of participants and large distances to Vienna. Although many scientists come from Germany (2587), UK (1355), Italy (1191), France (1151) their contribution is minor due to short distances to Vienna, despite short-haul flights. On the other hand, 51 scientists (0.3% of participants) from New Zealand contribute 2% of the overall carbon footprint. b) A scenario in which short-haul flights are replaced with rail journeys decreases the carbon emissions from the United Kingdom, Germany, France by a factor of 7, which results from the assumptions on carbon emission per mode of transport (30gCO2e / km / person for rail versus 200gCO2e / km / person for short-haul). Same holds for other countries in regions like Benelux, Scandinavia and Eastern Europe (incl. South-East and North-East, like Greece, Turkey, Romania, Estonia, Bulgaria, Latvia and Ukraine, to name a few), although railway (or highway) infrastructure in some countries is unlikely to allow travelling to Vienna in a reasonable time.
 
 # 3. Data
 
@@ -63,7 +63,7 @@ Rail journeys are assumed to emit 30gCO2e / km / person.
 
 Short haul journeys are assumed to emit 200gCO2e / km / person, long haul journeys are assumed to emit 250gCO2e / km / person.
 [[atmosfair.de](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf),
-[icao.int](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf)
+[icao.int](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf)]
 
 ## 4.5 Sensitivity to assumptions
 
@@ -82,8 +82,3 @@ d) Similar arguments hold for the exact departure locations of scientists from C
 e) The carbon dioxide equivalent emissions of rail journeys. These are assumed to be 30gCO2e / km / person [[ecopassenger.org](http://ecopassenger.hafas.de/hafas-res/download/Ecopassenger_Methodology_Data.pdf), 
 [cer.be](http://www.cer.be/sites/default/files/publication/Facts%20and%20figures%202014.pdf), 
 [eea.europa.eu](https://www.eea.europa.eu/data-and-maps/indicators/energy-efficiency-and-specific-co2-emissions/energy-efficiency-and-specific-co2-9)], which can be considered as a European average. Emissions from individual trains can, however, can be lower by an order of magnitude depending on the type of train (electric, diesel, highspeed or regional), the local energy mix (for electric trains), number of passengers, etc. The highspeed train in France is estimated to emit only [3gCO2e / km  / person](https://en.oui.sncf/en/help-en/calculation-of-co2-emissions-on-your-train-journey), due to a very low carbon electric grid, but average trains in the UK emit [40gCO2e / km / person](https://dataportal.orr.gov.uk/media/1114/rail-infrastructure-assets-environmental-2017-18.pdf) as many services are not electrified and diesel trains are used instead. As the contribution of rail journeys to the overall carbon footprint of EGU-related travel is negligible (<1%), the uncertainty here is negligible too.
-
-
-## 4.5 Reduction scenarios
-
-We want to compare the realistic assumptions above to a scenario where every participant with a distance of less than 1500km takes the train.
