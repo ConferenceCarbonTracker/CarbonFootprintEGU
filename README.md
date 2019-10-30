@@ -21,7 +21,7 @@ USA (1068 scientists) and China (1194) are the biggest contributors, due to larg
 
  Data is based on https://egu2019.eu/#CountryStatistics.
  
- The processed data (Coordinates of departure location, distance to Vienna etc.) can be found in [data/data_processed.xlsx](https://github.com/milankl/CarbonFootprintEGU/blob/master/data/data_processed.xlsx)
+ The processed data (Coordinates of departure location, distance to Vienna etc.) can be found in [data/data_processed.csv](https://github.com/milankl/CarbonFootprintEGU/blob/master/data/data_processed.csv)
 
 # Methods
 
