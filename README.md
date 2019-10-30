@@ -25,6 +25,8 @@ USA (1068 scientists) and China (1194) are the biggest contributors, due to larg
 
 # Methods
 
+All scripts can be found in [`src/`](https://github.com/milankl/CarbonFootprintEGU/tree/master/src)
+
 ## 1. Departure location
 
 The departure location per country is chosen as the capital / largest city (see [data](https://github.com/milankl/CarbonFootprintEGU/data/data_processed.xlsx)), with a few exceptions that are explained in the following
