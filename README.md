@@ -1,8 +1,21 @@
 # Travel carbon footprint of EGU General Assembly 2019
 
-# Abstract
+# Summary
 
-16273 scientists from 113 countries [1](https://egu2019.eu/#CountryStatistics) participated in the [EGU General Assembly 2019](https://www.egu2019.eu/) in Vienna, Austria. We estimate that these scientists travelled in total 94 million km to Vienna and back, which emitted 22302 tC02e, an average of ca 1.4 tCO2e per scientist. 86% of these carbon emissions result from long-haul flights (>1500km), 13% from short-haul and <1% from rail journeys. Scientists from China and the United States are responsible for 40% of emissions. Assuming that short-haul flights could be replaced by rail, reduces the carbon footprint by 11.5% to 19750 tCO2e, as contributions from countries like Germany, UK, France, Italy, Benelux and Scandinavia are reduced by a factor of 7.
+16273 scientists from 113 countries [1](https://egu2019.eu/#CountryStatistics) participated in the [EGU General Assembly 2019](https://www.egu2019.eu/) in Vienna, Austria. We estimate that these scientists travelled in total 94 million km to Vienna and back, which emitted 22302 tC02e, an average of ca 1.4 tCO2e per scientist. 86% of these carbon emissions result from long-haul flights (>1500km), 13% from short-haul (between 1500km and 700km) and <1% from rail journeys (<700km). Scientists from China and the United States are responsible for 40% of emissions. Assuming that short-haul flights could be replaced by rail, reduces the carbon footprint by 11.5% to 19750 tCO2e, as contributions from countries like Germany, UK, France, Italy, Benelux, Scandinavia as well as Eastern European countries are reduced by a factor of 7.
+
+# Plots
+![](https://github.com/milankl/CarbonFootprintEGU/blob/master/plots/world.png)
+
+The countries of all 16273 scientists are illustrated on an equi-distant map, which preserves the distances with respect to Vienna. Line thicknesses are weighted by the amount of participants per country. 
+
+![](https://github.com/milankl/CarbonFootprintEGU/blob/master/plots/CO2_permode.png)
+
+Splitting the total carbon footprint of 22302 tCO2e into the modes of transport illustrates that long-haul flights are the major contributor with 86%. Contribution of rail journeys are less than 1%. Replacing short-haul flights with rail journeys decreases the carbon footprint by 11.5% to less than 20 MtCO2e.
+
+![](https://github.com/milankl/CarbonFootprintEGU/blob/master/plots/CO2_percountry.png)
+
+USA (1068 scientists) and China (1194) are the biggest contributors, due to large number of participants and large distances to Vienna. Although many scientists come from Germany (2587), UK (1355), Italy (1191), France (1151) their contribution is minor due to short distances to Vienna, despite short-haul flights. On the other hand, 51 scientists (0.3% of participants) from New Zealand contribute 2% of the overall carbon footprint.
 
 # Data
 
