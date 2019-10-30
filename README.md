@@ -7,7 +7,7 @@
 # Plots
 ![](https://github.com/milankl/CarbonFootprintEGU/blob/master/plots/world.png)
 
-The countries of all 16273 scientists are illustrated on an equi-distant map, which preserves the distances with respect to Vienna. Line thicknesses are weighted by the amount of participants per country. 
+The countries of all 16273 scientists are illustrated on an equi-distant map, which preserves the distances with respect to Vienna. Line thicknesses are weighted by the amount of participants per country. Capital cities / largest cities are assumed as the departure location, with a few exceptions (see Methods).
 
 ![](https://github.com/milankl/CarbonFootprintEGU/blob/master/plots/CO2_permode.png)
 
