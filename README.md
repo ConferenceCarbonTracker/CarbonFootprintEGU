@@ -29,7 +29,7 @@ All scripts can be found in [`src/`](https://github.com/milankl/CarbonFootprintE
 
 ## 1. Departure location
 
-The departure location per country is chosen as the capital / largest city (see [data](https://github.com/milankl/CarbonFootprintEGU/data/data_processed.xlsx)), with a few exceptions that are explained in the following
+The departure location per country is chosen as the capital / largest city (see [data](https://github.com/milankl/CarbonFootprintEGU/data/data_processed.csv)), with a few exceptions that are explained in the following
 
   a) Germany: Participants from Germany are split into 4 groups (Berlin 20%, Hamburg 20%, Munich 20%, Cologne 40%) to better represent the participant distribution and their distance to Vienna across Germany.
   
