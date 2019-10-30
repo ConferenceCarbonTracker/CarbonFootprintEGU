@@ -30,7 +30,7 @@ Figure 3: a) China (1194 scientists) and USA (1068) are the biggest contributors
 
 # 4. Methods
 
-All scripts can be found in [`src/`](https://github.com/milankl/CarbonFootprintEGU/tree/master/src)
+All scripts can be found in [`src/`](https://github.com/milankl/CarbonFootprintEGU/tree/master/src), the assumptions are discussed in 4.6.
 
 ## 4.1 Departure location
 
