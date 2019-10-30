@@ -56,7 +56,7 @@ Rail is assumed for all journeys with distances of less than 700km. Airplanes ar
 
 ## 4.4 Indirect journeys
 
-We assume all jounneys to be direct, that means, we calculate the distance as the great circle distance. This is more accurate for long-haul than for short-haul, and has some considerable errors for railways (less than a factor of 2 though). More in Methods 4.6.
+We assume all journeys to be direct, that means, we calculate the distance as the great circle distance. This is more accurate for long-haul than for short-haul, and has some considerable errors for railways (less than a factor of 2 though). More in Methods 4.6.
 
 ## 4.5 Carbon emissions
 
