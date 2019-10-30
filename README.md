@@ -16,7 +16,7 @@ Figure 1: The journeys of all 16,273 scientists are illustrated on an equi-dista
 
 ![](https://github.com/milankl/CarbonFootprintEGU/blob/master/plots/CO2_permode.png)
 
-Figure 2: a) Splitting the total carbon footprint of 22302 tCO2e into the modes of transport illustrates that long-haul flights are the major contributor with 86%. Contribution of rail journeys are less than 1%. b) A scenario in which short-haul flights are replaced with rail journeys decreases the carbon footprint by 11.5% to less than 20 MtCO2e. This scenario makes long-haul flights the dominating contribution to the overall carbon footprint with 97% and the emissions from rail journeys are negligible (<3%).
+Figure 2: a) Splitting the total carbon footprint of 22302 tCO2e into the modes of transport illustrates that long-haul flights are the major contributor with 86%. Contribution of rail journeys are less than 1%. b) A scenario in which short-haul flights are replaced with rail journeys decreases the carbon footprint by 11.5% to less than 20,000 tCO2e. This scenario makes long-haul flights the dominating contribution to the overall carbon footprint with 97% and the emissions from rail journeys are negligible (<3%).
 
 ![](https://github.com/milankl/CarbonFootprintEGU/blob/master/plots/CO2_percountry.png)
 
@@ -54,7 +54,11 @@ Every participant is assumed to travel back to their departure location with the
 
 Rail is assumed for all journeys with distances of less than 700km. Airplanes are assumed for longer distances. Short-haul is defined as distances of less than 1500km, longer distances are long-haul.
 
-## 4.4 Carbon emissions
+## 4.4 Indirect journeys
+
+We assume all jounneys to be direct, that means, we calculate the distance as the great circle distance. This is more accurate for long-haul than for short-haul, and has some considerable errors for railways (less than a factor of 2 though). More in Methods 4.6.
+
+## 4.5 Carbon emissions
 
 Rail journeys are assumed to emit 30gCO2e / km / person. 
 [[ecopassenger.org](http://ecopassenger.hafas.de/hafas-res/download/Ecopassenger_Methodology_Data.pdf), 
@@ -65,7 +69,7 @@ Short haul journeys are assumed to emit 200gCO2e / km / person, long haul journe
 [[atmosfair.de](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf),
 [icao.int](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf)]
 
-## 4.5 Sensitivity to assumptions
+## 4.6 Sensitivity to assumptions
 
 Sensitivity to the assumptions is fairly low. Main contributions to the uncertainty of the carbon footprint are
 
@@ -82,3 +86,5 @@ d) Similar arguments hold for the exact departure locations of scientists from C
 e) The carbon dioxide equivalent emissions of rail journeys. These are assumed to be 30gCO2e / km / person [[ecopassenger.org](http://ecopassenger.hafas.de/hafas-res/download/Ecopassenger_Methodology_Data.pdf), 
 [cer.be](http://www.cer.be/sites/default/files/publication/Facts%20and%20figures%202014.pdf), 
 [eea.europa.eu](https://www.eea.europa.eu/data-and-maps/indicators/energy-efficiency-and-specific-co2-emissions/energy-efficiency-and-specific-co2-9)], which can be considered as a European average. Emissions from individual trains can, however, can be lower by an order of magnitude depending on the type of train (electric, diesel, highspeed or regional), the local energy mix (for electric trains), number of passengers, etc. The highspeed train in France is estimated to emit only [3gCO2e / km  / person](https://en.oui.sncf/en/help-en/calculation-of-co2-emissions-on-your-train-journey), due to a very low carbon electric grid, but average trains in the UK emit [40gCO2e / km / person](https://dataportal.orr.gov.uk/media/1114/rail-infrastructure-assets-environmental-2017-18.pdf) as many services are not electrified and diesel trains are used instead. As the contribution of rail journeys to the overall carbon footprint of EGU-related travel is negligible (<1%), the uncertainty here is negligible too.
+
+f) Indirect rail journeys. We assume great circle distances of rail journeys such that we likely underestimate the actually travelled distance. However, this error is within a factor 2 and our estimate is poses therefore a lower bound on the emissions. As the contribution of rail is negligible to the overall footprint, this is uncertainty is negligible too.
