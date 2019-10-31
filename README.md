@@ -1,7 +1,7 @@
 # Travel carbon footprint of EGU General Assembly 2019
-How much carbon dioxide does travelling to the annual EGU General Assembly emit and how it can be reduced to less than 5% of current emissions in short time.
+*How much carbon dioxide does travelling to the annual EGU General Assembly emit and how it can be reduced to less than 5% of current emissions in short time.*
 
-> Milan Klöwer\
+> **Milan Klöwer**\
 > Atmospheric, Oceanic and Planetary Physics, University of Oxford\
 > *milan.kloewer@physics.ox.ac.uk*
 
