@@ -42,7 +42,7 @@ Data is based on https://egu2019.eu/#CountryStatistics. The processed data (coor
 
 # 4. Methods
 
-All scripts can be found in [`src/`](https://github.com/milankl/CarbonFootprintEGU/tree/master/src), the assumptions are discussed in 4.6.
+All scripts can be found in [`src/`](https://github.com/milankl/CarbonFootprintEGU/tree/master/src), the assumptions are discussed in [4.6](https://github.com/milankl/CarbonFootprintEGU#46-sensitivity-to-assumptions).
 
 ## 4.1 Departure location
 
