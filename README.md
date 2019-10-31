@@ -24,7 +24,7 @@ Figure 3: a) China (1194 scientists) and USA (1068) are the biggest contributors
 
 ![](https://github.com/milankl/CarbonFootprintEGU/blob/master/plots/carbon_sorted.png)
 
-Figure 4: Carbon emission sorted by highest per capita emissions. 
+Figure 4: Carbon emissions sorted by highest per capita emissions. Each grey rectangle corresponds to one country, the largest in terms of emissions and participants are named. The 9% (blue), 25% (green) highest emitting participants are responsible for 33% / 80% of the total travel carbon footprint.
 
 
 # 3. Data
