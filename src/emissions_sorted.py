@@ -38,9 +38,7 @@ y1 = np.hstack((ccarbonpercent[0],np.vstack((ccarbonpercent[:-1],ccarbonpercent[
 y2 = np.hstack((ccarbonpercent[0],np.vstack((ccarbonpercent[1:],ccarbonpercent[1:])).flatten("F"),ccarbonpercent[-1]))
 
 ## PLOT
-fig,ax = plt.subplots(1,1,figsize=(6,4))
-
-#ax.plot(cnumpercent,ccarbonpercent,lw=2.5,ds="steps-pre")
+fig,ax = plt.subplots(1,1,figsize=(5.08,5))
 
 # SCENARIO 1
 i1 = 29
@@ -75,10 +73,11 @@ ax.fill_between(x,y1,y2,alpha=0.3,color="k")
 countrynames = ["{:d} {:s}".format(i+1,names[n]) for i,n in enumerate(n_countries1+n_countries2)]
 ax.legend([l1,]*len(countrynames),countrynames,title="Countries",loc=4,handlelength=0,fontsize=7)
 
+ax.set_xlim(0.0,100.0)
+ax.set_ylim(0.0,100.0)
 
 ax.set_title("Sorted carbon emissions",loc="left")
-ax.set_xlim(0,100)
-ax.set_ylim(0,100)
+
 ax.set_xlabel("% of highest emitting participants")
 ax.set_ylabel("% of total emissions")
 
