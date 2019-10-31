@@ -11,7 +11,7 @@ How much carbon dioxide does travelling to the annual EGU General Assembly emit 
 
 # 1. Introduction
 
-International aviation is projected to contribute 22% to global greenhouse gas emissions in 2050 [[1](http://www.europarl.europa.eu/RegData/etudes/STUD/2015/569964/IPOL_STU(2015)569964_EN.pdf)], as doubling of passengers is expected by 2036 [[2](https://www.iata.org/pressroom/pr/Pages/2017-10-24-01.aspx)]. In Paris 2015, world governments have agreed to keep the global temperature increase well below 2°C [[3](https://treaties.un.org/doc/Treaties/2016/02/20160215%2006-03%20PM/Ch_XXVII-7-d.pdf)], which requires drastic reductions in greenhouse gas emissions. Universities and other research institutions are high emitters [[4](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)], with individual carbon emissions an order of magnitude larger [[6](https://www.sciencedirect.com/science/article/pii/S0959652619311862)] than the personal budget allows [[7](https://wordpress.hotorcool.org/wp-content/uploads/2019/02/15_Degree_Lifestyles_MainReport.pdf), [8](https://iopscience.iop.org/article/10.1088/1748-9326/aa7541/pdf), [9](https://www.sciencedirect.com/science/article/pii/S0969699719303229)]. Research-associated carbon emissions are dominated by air travel to conferences, meetings and for fieldwork [[10](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)], although with limited impact on  professional success [[6](https://www.sciencedirect.com/science/article/pii/S0959652619311862)].
+International aviation is projected to contribute 22% to global greenhouse gas emissions in 2050 [[1](http://www.europarl.europa.eu/RegData/etudes/STUD/2015/569964/IPOL_STU(2015)569964_EN.pdf)], as doubling of passengers is expected by 2036 [[2](https://www.iata.org/pressroom/pr/Pages/2017-10-24-01.aspx)]. In Paris 2015, world governments have agreed to keep the global temperature increase well below 2°C [[3](https://treaties.un.org/doc/Treaties/2016/02/20160215%2006-03%20PM/Ch_XXVII-7-d.pdf)], which requires drastic reductions in greenhouse gas emissions. Universities and other research institutions are high emitters [[4](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)], with individual carbon emissions an order of magnitude larger [[5](https://www.sciencedirect.com/science/article/pii/S0959652619311862)] than the personal budget allows [[6](https://wordpress.hotorcool.org/wp-content/uploads/2019/02/15_Degree_Lifestyles_MainReport.pdf), [7](https://iopscience.iop.org/article/10.1088/1748-9326/aa7541/pdf), [8](https://www.sciencedirect.com/science/article/pii/S0969699719303229)]. Research-associated carbon emissions are dominated by air travel to conferences, meetings and for fieldwork [[9](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)], although with limited impact on  professional success [[5](https://www.sciencedirect.com/science/article/pii/S0959652619311862)].
 
 Most conferences do not provide live-streaming, or allow for remote-speaking, although alternatives exist. Very few conferences are entirely virtual (e.g. [virtual island summit](https://www.islandinnovation.co/summit/)), therefore often carbon neutral, and free to attend. Continuous virtual seminar series allow for frequent academic exchange (e.g. [Virtual Blue COP 25](https://virtualbluecop25.org/)) sometimes with a focus on field-specific subjects (e.g. [EBUS Webinars](https://ebuswebinars.wixsite.com/ebuswebinars)). Live-streaming is provided by more conferences (e.g. [JuliaCon](https://juliacon.org/2019/), with an automatic archive on [YouTube](https://www.youtube.com/playlist?list=PLP8iPy9hna6StY9tIJIUN3F_co9A0zh0H)), mainly to make them more accesible for participants with constraints on time, money, or freedom of travel.
 
@@ -101,4 +101,20 @@ f) Indirect rail journeys. We assume great circle distances of rail journeys suc
 
 # References
 
-[1] [Author, title, year](http://www.europarl.europa.eu/RegData/etudes/STUD/2015/569964/IPOL_STU(2015)569964_EN.pdf)
+[1] [Cames, M, J Graichen, A Siemons, V Cook, 2015. *Emission Reduction Targets for International Aviation and Shipping*, European Parliament, Policy Department A: Economic and Scientific Policy](http://www.europarl.europa.eu/RegData/etudes/STUD/2015/569964/IPOL_STU(2015)569964_EN.pdf)
+
+[2] [International Air Transport Association, 2017. *20 Year Passenger Forecast*](https://www.iata.org/publications/store/Pages/20-year-passenger-forecast.aspx)
+
+[3] [Paris Agreement of the United Nations Framework Convention on Climate Change, 2016.](https://treaties.un.org/doc/Treaties/2016/02/20160215%2006-03%20PM/Ch_XXVII-7-d.pdf)
+
+[4] [Higham, JES, Hopkins D, Orchiston C, 2019. *The work-sociology of academic aeromobility at remote institutions*, **Mobilities**, 14, p. 612-631](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)
+
+[5] [Wynes, S, SD Donner, S Tannason, N Nabors, 2019. **Academic air travel has a limited influence on professional success**. **Journal of Cleaner Production**, 226, p. 959-967.](https://www.sciencedirect.com/science/article/pii/S0959652619311862)
+
+[6] [Institute for Global Environmental Strategies, Aalto University, and D-mat ltd. 2019. *1.5-Degree Lifestyles: Targets and Options for Reducing Lifestyle Carbon Footprints*. Technical Report.Institute for Global Environmental Strategies, Hayama, Japan. ](https://wordpress.hotorcool.org/wp-content/uploads/2019/02/15_Degree_Lifestyles_MainReport.pdf)
+
+[7] [Wynes, S and KA Nicholas, 2017. *The climate mitigation gap: education andgovernment recommendations miss the mosteffective individual actions.* **Environ. Res. Lett.**,12,074024.](https://iopscience.iop.org/article/10.1088/1748-9326/aa7541/pdf)
+
+[8] [Goessling, S, P Hanna, J Higham, S Cohen, D Hopkins, 2019. *Can we fly less? Evaluating the ‘necessity’ of air travel*,**Journal of Air Transport Management**, 81](https://www.sciencedirect.com/science/article/pii/S0969699719303229)
+
+[9] 
