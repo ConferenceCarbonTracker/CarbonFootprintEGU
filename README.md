@@ -3,7 +3,7 @@ How much carbon dioxide does research on climate change emit?
 
 ## Summary
 
-16,273 scientists from 113 countries participated in the [EGU General Assembly 2019](https://egu2019.eu/#CountryStatistics) in Vienna, Austria. We estimate that these scientists travelled in total 94 million km to Vienna and back, which emitted 22,302 tC02e, an average of ca 1.4 tCO2e per scientist. 86% of these carbon emissions result from long-haul flights (>1500km), 13% from short-haul (between 700 and 1500km) and <1% from rail journeys (<700km). Scientists from China and the United States are responsible for 40% of emissions. One scenario to reduce the emissions is to replace short-haul flights by rail journeys, which reduces the carbon footprint by 11.5% down to 19,750 tCO2e. In this scenario contributions from Germany, UK, France, Italy, Benelux, Scandinavia as well as Eastern European countries are reduced by a factor of 7, resulting from the accordingly lower carbon emissions of trains compared to airplanes.
+16,273 scientists from 113 countries participated in the [EGU General Assembly 2019](https://egu2019.eu/#CountryStatistics) in Vienna, Austria. We estimate that these scientists travelled in total 94 million km to Vienna and back, which emitted 22,302 tC02e, an average of ca 1.4 tCO2e per scientist. 86% of these carbon emissions result from long-haul flights (>1500km), 13% from short-haul (between 700 and 1500km) and <1% from rail journeys (<700km). Scientists from China and the United States are responsible for 40% of emissions. One scenario to reduce the emissions is to replace short-haul flights by rail journeys, which reduces the carbon footprint by 11.5% down to 19,750 tCO2e. If the equivalent of the 9% highest emitting participants would participate virtually, then the carbon emissions would be reduced by 33%. Virtual participation for 25% of the highest emitting participants would reduce the carbon footprint by 80%. A EGU General Assembly with most European scientists arriving by train and 25% virtual participation has only 8.5% of the current travel carbon emissions. Combinging this scenario with a completely virtual format every other year, travel emissions to the EGU General Assembly would be reduced by 96%.
 
 # 1. Introduction
 
@@ -25,7 +25,6 @@ Figure 3: a) China (1194 scientists) and USA (1068) are the biggest contributors
 ![](https://github.com/milankl/CarbonFootprintEGU/blob/master/plots/carbon_sorted.png)
 
 Figure 4: Carbon emissions sorted by highest per capita emissions. Each grey rectangle corresponds to one country, the largest in terms of emissions and participants are named. The 9% (blue), 25% (green) highest emitting participants are responsible for 33% / 80% of the total travel carbon footprint.
-
 
 # 3. Data
 
