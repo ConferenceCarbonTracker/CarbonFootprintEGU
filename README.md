@@ -1,9 +1,9 @@
 # Travel carbon footprint of EGU General Assembly 2019
-*How much carbon dioxide does travelling to the annual EGU General Assembly emit and how it can be reduced to less than 5% of current emissions in short time.*
+> *How much carbon dioxide does travelling to the annual EGU General Assembly emit and how it can be reduced to less than 5% of current emissions in short time.*
 
-> **Milan Klöwer**\
-> Atmospheric, Oceanic and Planetary Physics, University of Oxford\
-> *milan.kloewer@physics.ox.ac.uk*
+**Milan Klöwer**\
+Atmospheric, Oceanic and Planetary Physics, University of Oxford\
+*milan.kloewer@physics.ox.ac.uk*
 
 For comments and changes, please raise an [issue](https://github.com/milankl/CarbonFootprintEGU/issues) or create a pull request.
 
@@ -46,11 +46,11 @@ All scripts can be found in [`src/`](https://github.com/milankl/CarbonFootprintE
 
 ## 4.1 Departure location
 
-The departure location per country is chosen as the capital / largest city (see [data](https://github.com/milankl/CarbonFootprintEGU/blob/master/data/data_processed.csv)), with a few exceptions that are explained in the following
+The departure location per country is chosen as the capital or largest city (see [data](https://github.com/milankl/CarbonFootprintEGU/blob/master/data/data_processed.csv)), with a few exceptions that are explained in the following:
 
   a) Germany: Participants from Germany are split into 4 groups (Berlin 20%, Hamburg 20%, Munich 20%, Cologne 40%) to better represent the participant distribution and their distance to Vienna across Germany.
   
-  b) United Kingdom: For same reasoning split into 2 groups (London 70%, Manchester 30%)
+  b) United Kingdom: For similar reasons split into 2 groups (London 70%, Manchester 30%)
   
   c) United States: Washington DC 70%, Los Angeles 30%
   
@@ -68,7 +68,7 @@ Rail is assumed for all journeys with distances of less than 700km. Airplanes ar
 
 ## 4.4 Indirect journeys
 
-We assume all journeys to be direct, that means, we calculate the distance as the great circle distance. This is more accurate for long-haul than for short-haul, and has some considerable errors for railways (less than a factor of 2 though). More in Methods 4.6.
+We assume all journeys to be direct, that means, we calculate the distance as the great circle distance. This is more accurate for long-haul than for short-haul, and has some considerable errors for railways (less than a factor of 2 though). More in Methods [4.6](https://github.com/milankl/CarbonFootprintEGU#46-sensitivity-to-assumptions).
 
 ## 4.5 Carbon emissions
 
@@ -102,6 +102,8 @@ e) The carbon dioxide equivalent emissions of rail journeys. These are assumed t
 f) Indirect rail journeys. We assume great circle distances of rail journeys such that we likely underestimate the actually travelled distance. However, this error is within a factor 2 and our estimate is poses therefore a lower bound on the emissions. As the contribution of rail is negligible to the overall footprint, this uncertainty is negligible too.
 
 # References
+
+A list of the unnamed references
 
 [1] [Cames, M, J Graichen, A Siemons, V Cook, 2015. *Emission Reduction Targets for International Aviation and Shipping*, European Parliament, Policy Department A: Economic and Scientific Policy](http://www.europarl.europa.eu/RegData/etudes/STUD/2015/569964/IPOL_STU(2015)569964_EN.pdf)
 
