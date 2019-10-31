@@ -107,7 +107,7 @@ f) Indirect rail journeys. We assume great circle distances of rail journeys suc
 
 [3] [Paris Agreement of the United Nations Framework Convention on Climate Change, 2016.](https://treaties.un.org/doc/Treaties/2016/02/20160215%2006-03%20PM/Ch_XXVII-7-d.pdf)
 
-[4] [Higham, JES, Hopkins D, Orchiston C, 2019. *The work-sociology of academic aeromobility at remote institutions*, **Mobilities**, 14, p. 612-631](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)
+[4] [Le Quere, C, et al., 2015. *Towards a culture of low-carbon research for the 21st century*, Tyndall Centre for Climate Change Research, Working paper 161.](https://tyndall.ac.uk/sites/default/files/twp161.pdf)
 
 [5] [Wynes, S, SD Donner, S Tannason, N Nabors, 2019. **Academic air travel has a limited influence on professional success**. **Journal of Cleaner Production**, 226, p. 959-967.](https://www.sciencedirect.com/science/article/pii/S0959652619311862)
 
@@ -117,4 +117,4 @@ f) Indirect rail journeys. We assume great circle distances of rail journeys suc
 
 [8] [Goessling, S, P Hanna, J Higham, S Cohen, D Hopkins, 2019. *Can we fly less? Evaluating the ‘necessity’ of air travel*,**Journal of Air Transport Management**, 81](https://www.sciencedirect.com/science/article/pii/S0969699719303229)
 
-[9] 
+[9] [Higham, JES, Hopkins D, Orchiston C, 2019. *The work-sociology of academic aeromobility at remote institutions*, **Mobilities**, 14, p. 612-631](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)
