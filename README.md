@@ -38,7 +38,7 @@ Figure 4: Carbon emissions sorted by highest per capita emissions. Each grey rec
 
 # 3. Data
 
-Data is based on https://egu2019.eu/#CountryStatistics. The processed data (coordinates of departure location, distance to Vienna etc.) can be found in [data/data_processed.csv](https://github.com/milankl/CarbonFootprintEGU/blob/master/data/data_processed.csv)
+Data is based on number of participants per country, [published by EGU.](https://egu2019.eu/#CountryStatistics). The processed data, including coordinates of departure location, distance to Vienna and sum of emissions per country, can be found in [data/data_processed.csv](https://github.com/milankl/CarbonFootprintEGU/blob/master/data/data_processed.csv)
 
 # 4. Methods
 
