@@ -1,7 +1,9 @@
 # Travel carbon footprint of EGU General Assembly 2019
 How much carbon dioxide does travelling to the annual EGU General Assembly emit and how it can be reduced to less than 5% of current emissions in short time.
 
-> Milan Klöwer, Atmospheric, Oceanic and Planetary Physics, University of Oxford
+> Milan Klöwer\
+> Atmospheric, Oceanic and Planetary Physics, University of Oxford\
+> *milan.kloewer@physics.ox.ac.uk*
 
 ## Summary
 
@@ -11,9 +13,9 @@ How much carbon dioxide does travelling to the annual EGU General Assembly emit 
 
 International aviation is projected to contribute 22% to global greenhouse gas emissions in 2050 [[1](http://www.europarl.europa.eu/RegData/etudes/STUD/2015/569964/IPOL_STU(2015)569964_EN.pdf)], as doubling of passengers is expected by 2036 [[2](https://www.iata.org/pressroom/pr/Pages/2017-10-24-01.aspx)]. In Paris 2015, world governments have agreed to keep the global temperature increase well below 2°C [[3](https://treaties.un.org/doc/Treaties/2016/02/20160215%2006-03%20PM/Ch_XXVII-7-d.pdf)], which requires drastic reductions in greenhouse gas emissions. Universities and other research institutions are high emitters [[4](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)], with individual carbon emissions an order of magnitude larger [[6](https://www.sciencedirect.com/science/article/pii/S0959652619311862)] than the personal budget allows [[7](https://wordpress.hotorcool.org/wp-content/uploads/2019/02/15_Degree_Lifestyles_MainReport.pdf), [8](https://iopscience.iop.org/article/10.1088/1748-9326/aa7541/pdf), [9](https://www.sciencedirect.com/science/article/pii/S0969699719303229)]. Research-associated carbon emissions are dominated by air travel to conferences, meetings and for fieldwork [[10](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)], although with limited impact on  professional success [[6](https://www.sciencedirect.com/science/article/pii/S0959652619311862)].
 
-The carbon footprint of most conferences and meetings is dominated by a small amount of participants with over-proportial travel emissions due to long distance flights. For the EGU General Assembly 2012 it was estimated that 20% of the highest emitting participants are responsible for 70% of the travel emissions [[9](https://tyndall.ac.uk/sites/default/files/twp161.pdf)]. Here, we calcuate the travel emissions for the same conference in 2019 and present reduction scenarios based on rail journeys and virtual participation.
+Most conferences do not provide live-streaming, or allow for remote-speaking, although alternatives exist. Very few conferences are entirely virtual (e.g. [virtual island summit](https://www.islandinnovation.co/summit/)), therefore often carbon neutral, and free to attend. Continuous virtual seminar series allow for frequent academic exchange (e.g. [Virtual Blue COP 25](https://virtualbluecop25.org/)) sometimes with a focus on field-specific subjects (e.g. [EBUS Webinars](https://ebuswebinars.wixsite.com/ebuswebinars)). Live-streaming is provided by more conferences (e.g. [JuliaCon](https://juliacon.org/2019/), with an automatic archive on [YouTube](https://www.youtube.com/playlist?list=PLP8iPy9hna6StY9tIJIUN3F_co9A0zh0H)), mainly to make them more accesible for participants with constraints on time, money, or freedom of travel.
 
-Most conferences do not provide live-streaming, or allow for remote-speaking, although alternatives exist. Some conferences are entirely virtual (e.g. [virtual island summit](https://www.islandinnovation.co/summit/)), therefore often carbon neutral, and free to attend. Continuous virtual seminar series allow for frequent academic exchange on field-specific subjects (e.g. [EBUS Webinars](https://ebuswebinars.wixsite.com/ebuswebinars)), or for the wider audience [Virtual Blue COP 25](https://virtualbluecop25.org/)). Live-streaming is provided by more conferences (e.g. [JuliaCon](
+The carbon footprint of most conferences and meetings is dominated by a small amount of participants with over-proportial travel emissions due to long distance flights. For the EGU General Assembly 2012 it was estimated that 20% of the highest emitting participants are responsible for 70% of the travel emissions [[9](https://tyndall.ac.uk/sites/default/files/twp161.pdf)]. Here, we calcuate the travel emissions for the same conference in 2019 and present reduction scenarios based on an increased number of rail journeys and virtual participation.
 
 # 2. Results
 ![](https://github.com/milankl/CarbonFootprintEGU/blob/master/plots/world.png)
