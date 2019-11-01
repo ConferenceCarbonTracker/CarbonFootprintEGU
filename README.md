@@ -1,5 +1,6 @@
-# Travel carbon footprint of EGU General Assembly 2019
-> *How much carbon dioxide does travelling to the annual EGU General Assembly emit and how it can be reduced to less than 5% of current emissions in short time.*
+# Travel carbon footprint of the EGU General Assembly 2019
+*How much carbon dioxide does travelling to the annual EGU General Assembly emit and how it can be reduced to less than 5% of current emissions in short time.*
+
 
 **Milan Klöwer**\
 Atmospheric, Oceanic and Planetary Physics, University of Oxford\
@@ -9,13 +10,13 @@ For comments and changes, please raise an [issue](https://github.com/milankl/Car
 
 ## Summary
 
-16,273 scientists from 113 countries participated in the [EGU General Assembly 2019](https://egu2019.eu/#CountryStatistics) in Vienna, Austria. We estimate that these scientists travelled in total 94 million km to Vienna and back, which emitted 22,302 tC02e, an average of ca 1.4 tCO2e per scientist. 86% of these carbon emissions result from long-haul flights (>1500km), 13% from short-haul (between 700 and 1500km) and <1% from rail journeys (<700km). Scientists from China and the United States are responsible for 40% of emissions. One scenario to reduce the emissions is to replace short-haul flights by rail journeys, which reduces the carbon footprint by 11.5% down to 19,750 tCO2e. If the equivalent of the 9% highest emitting participants would participate virtually, then the carbon emissions would be reduced by 33%. Virtual participation for 25% of the highest emitting participants would reduce the carbon footprint by 80%. A EGU General Assembly with most European scientists arriving by train and 25% virtual participation reduces the current travel carbon emissions by 91%. Combining this scenario with a completely virtual format every other year, travel emissions to the EGU General Assembly would be reduced by 96% to less than 1000 tCO2e.
+16,273 scientists from 113 countries participated in the [EGU General Assembly 2019](https://egu2019.eu) in Vienna, Austria. We estimate that these scientists travelled in total 94 million km to Vienna and back, which emitted 22,302 tC02e, an average of ca 1.4 tCO2e per scientist. 86% of these carbon emissions result from long-haul flights (>1500km), 13% from short-haul (between 700 and 1500km) and <1% from rail journeys (<700km). Scientists from China and the United States are responsible for 40% of emissions. One scenario to reduce the emissions is to replace short-haul flights by rail journeys, which reduces the carbon footprint by 11.5% down to 19,750 tCO2e. If the equivalent of the 9% highest emitting participants would participate virtually, then the carbon emissions would be reduced by 33%. Virtual participation for 25% of the highest emitting participants would reduce the carbon footprint by 80%. A EGU General Assembly with most European scientists arriving by train and 25% virtual participation reduces the current travel carbon emissions by 91%. Combining this scenario with a completely virtual format every other year, travel emissions to the EGU General Assembly would be reduced by 96% to less than 1000 tCO2e.
 
 # 1. Introduction
 
-International aviation is projected to contribute 22% to global greenhouse gas emissions in 2050 [[1](http://www.europarl.europa.eu/RegData/etudes/STUD/2015/569964/IPOL_STU(2015)569964_EN.pdf)], as doubling of passengers is expected by 2036 [[2](https://www.iata.org/pressroom/pr/Pages/2017-10-24-01.aspx)]. In Paris 2015, world governments have agreed to keep the global temperature increase well below 2°C [[3](https://treaties.un.org/doc/Treaties/2016/02/20160215%2006-03%20PM/Ch_XXVII-7-d.pdf)], which requires drastic reductions in greenhouse gas emissions. Universities and other research institutions are high emitters [[4](https://tyndall.ac.uk/sites/default/files/twp161.pdf)], with individual carbon emissions an order of magnitude larger [[5](https://www.sciencedirect.com/science/article/pii/S0959652619311862)] than the personal budget allows [[6](https://wordpress.hotorcool.org/wp-content/uploads/2019/02/15_Degree_Lifestyles_MainReport.pdf), [7](https://iopscience.iop.org/article/10.1088/1748-9326/aa7541/pdf), [8](https://www.sciencedirect.com/science/article/pii/S0969699719303229)]. Research-associated carbon emissions are dominated by air travel to conferences, meetings and for fieldwork [[4](https://tyndall.ac.uk/sites/default/files/twp161.pdf)], although with limited impact on  professional success [[5](https://www.sciencedirect.com/science/article/pii/S0959652619311862)].
+International aviation is projected to contribute 22% to global greenhouse gas emissions in 2050 [[1](http://www.europarl.europa.eu/RegData/etudes/STUD/2015/569964/IPOL_STU(2015)569964_EN.pdf)], as doubling of passengers is expected by 2036 [[2](https://www.iata.org/pressroom/pr/Pages/2017-10-24-01.aspx)]. In Paris 2015, world governments have agreed to keep the global temperature increase well below 2°C [[3](https://treaties.un.org/doc/Treaties/2016/02/20160215%2006-03%20PM/Ch_XXVII-7-d.pdf)], which requires drastic reductions in greenhouse gas emissions. Universities and other research institutions are high emitters [[4](https://tyndall.ac.uk/sites/default/files/twp161.pdf)], with individual carbon emissions an order of magnitude larger [[5](https://www.sciencedirect.com/science/article/pii/S0959652619311862)] than the personal budget allows [[6](https://wordpress.hotorcool.org/wp-content/uploads/2019/02/15_Degree_Lifestyles_MainReport.pdf), [7](https://iopscience.iop.org/article/10.1088/1748-9326/aa7541/pdf), [8](https://www.sciencedirect.com/science/article/pii/S0969699719303229)]. Research-associated carbon emissions are dominated by air travel to conferences, meetings and for fieldwork [[4](https://tyndall.ac.uk/sites/default/files/twp161.pdf)], although with limited direct link to professional success [[5](https://www.sciencedirect.com/science/article/pii/S0959652619311862), [9](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)].
 
-Most conferences do not provide live-streaming, or allow for remote-speaking, although alternatives exist. Very few conferences are entirely virtual (e.g. [virtual island summit](https://www.islandinnovation.co/summit/)), therefore often carbon neutral, and free to attend. Continuous virtual seminar series allow for frequent academic exchange (e.g. [Virtual Blue COP 25](https://virtualbluecop25.org/)) sometimes with a focus on field-specific subjects (e.g. [EBUS Webinars](https://ebuswebinars.wixsite.com/ebuswebinars)). Live-streaming is provided by more conferences (e.g. [JuliaCon](https://juliacon.org/2019/), with an automatic archive on [YouTube](https://www.youtube.com/playlist?list=PLP8iPy9hna6StY9tIJIUN3F_co9A0zh0H)), mainly to make them more accesible for participants with constraints on time, money, or freedom of travel.
+Most conferences do not provide live-streaming, nor allow for remote-speaking, although alternatives exist. Very few conferences are fully virtual (e.g. [virtual island summit](https://www.islandinnovation.co/summit/)), therefore often almost carbon neutral, and free to attend [[10](https://hiltner.english.ucsb.edu/index.php/ncnc-guide/)]. Continuous virtual seminar series allow for frequent academic exchange (e.g. [Virtual Blue COP 25](https://virtualbluecop25.org/)) sometimes with a focus on field-specific subjects (e.g. [EBUS Webinars](https://ebuswebinars.wixsite.com/ebuswebinars)). Live-streaming is provided by more conferences (e.g. [JuliaCon](https://juliacon.org/2019/), with an automatic archive on [YouTube](https://www.youtube.com/playlist?list=PLP8iPy9hna6StY9tIJIUN3F_co9A0zh0H)), mainly to make them more accesible for participants with constraints on time, money, or freedom of travel.
 
 The carbon footprint of most conferences and meetings is dominated by a small amount of participants with over-proportial travel emissions due to long distance flights. For the EGU General Assembly 2012 it was estimated that 20% of the highest emitting participants are responsible for 70% of the travel emissions [[4](https://tyndall.ac.uk/sites/default/files/twp161.pdf)]. Here, we calcuate the travel emissions for the same conference in 2019 and present reduction scenarios based on an increased number of rail journeys and virtual participation.
 
@@ -38,11 +39,11 @@ Figure 4: Carbon emissions sorted by highest per capita emissions. Each grey rec
 
 # 3. Data
 
-Data is based on number of participants per country, [published by EGU.](https://egu2019.eu/#CountryStatistics). The processed data, including coordinates of departure location, distance to Vienna and sum of emissions per country, can be found in [data/data_processed.csv](https://github.com/milankl/CarbonFootprintEGU/blob/master/data/data_processed.csv)
+Data is based on number of participants per country, [published by EGU](https://egu2019.eu/#CountryStatistics). The processed data, including coordinates of departure location, distance to Vienna and sum of emissions per country, can be found in [`data/data_processed.csv`](https://github.com/milankl/CarbonFootprintEGU/blob/master/data/data_processed.csv)
 
 # 4. Methods
 
-All scripts can be found in [`src/`](https://github.com/milankl/CarbonFootprintEGU/tree/master/src), the assumptions are discussed in [4.6](https://github.com/milankl/CarbonFootprintEGU#46-sensitivity-to-assumptions).
+All scripts can be found in [`src/`](https://github.com/milankl/CarbonFootprintEGU/tree/master/src), the assumptions are discussed in section [4.6](https://github.com/milankl/CarbonFootprintEGU#46-sensitivity-to-assumptions).
 
 ## 4.1 Departure location
 
@@ -50,13 +51,15 @@ The departure location per country is chosen as the capital or largest city (see
 
   a) Germany: Participants from Germany are split into 4 groups (Berlin 20%, Hamburg 20%, Munich 20%, Cologne 40%) to better represent the participant distribution and their distance to Vienna across Germany.
   
-  b) United Kingdom: For similar reasons split into 2 groups (London 70%, Manchester 30%)
+  b) United Kingdom: For similar reasons scientists from the UK are split into 2 groups (London 70%, Manchester 30%).
   
-  c) United States: Washington DC 70%, Los Angeles 30%
+  c) United States: Washington DC 70%, Los Angeles 30%.
   
   d) Austria: Vienna 50%, Graz 50%. Graz has a relatively high number to account for journey distances of participants from Innsbruck, Salzburg, etc.
 
-  e) Canada: Toronto 80%, Vancouver 20%
+  e) Canada: Toronto 80%, Vancouver 20%.
+  
+The named location `city, country` is converted to geographical coordinates with [Nominatim](https://nominatim.org/release-docs/develop/api/Overview/) from the [OpenStreetMap database](https://www.openstreetmap.org/) (see [`src/get_locations.py`](https://github.com/milankl/CarbonFootprintEGU/blob/master/src/get_locations.py)).
   
 ## 4.2 Retour and other conferences
 
@@ -68,7 +71,7 @@ Rail is assumed for all journeys with distances of less than 700km. Airplanes ar
 
 ## 4.4 Indirect journeys
 
-We assume all journeys to be direct, that means, we calculate the distance as the great circle distance. This is more accurate for long-haul than for short-haul, and has some considerable errors for railways (less than a factor of 2 though). More in Methods [4.6](https://github.com/milankl/CarbonFootprintEGU#46-sensitivity-to-assumptions).
+We assume all journeys to be direct, that means, we calculate the distance as the great circle distance. This is more accurate for long-haul than for short-haul, and has some considerable errors for railways (less than a factor of 2 though). More in section [4.6](https://github.com/milankl/CarbonFootprintEGU#46-sensitivity-to-assumptions).
 
 ## 4.5 Carbon emissions
 
@@ -85,13 +88,13 @@ Short haul journeys are assumed to emit 200gCO2e / km / person, long haul journe
 
 Sensitivity to the assumptions is fairly low. Main contributions to the uncertainty of the carbon footprint are
 
-a) The carbon dioxide equivalent emissions of long-haul flights. These are assumed to be 250gCO2e / km / person, which is a fairly well established value ([[atmosfair.de](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf),[icao.int](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf)]) that is a representative average with less than 10% error. The emissions of individual flights have much higher uncertainty and depend on number of passengers, airline / flight class, type of aircraft, potential detours, flight height, and weather conditions. 
+a) The carbon dioxide equivalent emissions of long-haul flights: These are assumed to be 250gCO2e / km / person, which is a fairly well established value ([[atmosfair.de](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf),[icao.int](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf)]) that is a representative average with less than 10% error. The emissions of individual flights have much higher uncertainty and depend on number of passengers, airline / flight class, type of aircraft, potential detours, flight height, and weather conditions. 
 
-b) The exact departure location of scientists from USA. A flight from Los Angeles to Vienna emits [1.8 times more](https://www.atmosfair.de/en/offset/flight/) tCO2e than a flight from New York to Vienna. We assume that a ratio of 70% of scientists depart from Washington DC and 30% from Los Angeles is representative to account for longer journeys (but therefore probably also fewer scientists) from Midwestern, Southern USA or the West Coast. Assuming 50% of scientists from the USA depart from Washington and 50% from Los Angeles, would increase the emission of those by 17%. As the USA contribution to the overall carbon dioxide emissions of EGU travel is 20%, this uncertainty accounts for less than 4% in total.
+b) The exact departure location of scientists from USA: A flight from Los Angeles to Vienna emits [1.8 times more](https://www.atmosfair.de/en/offset/flight/) tCO2e than a flight from New York to Vienna. We assume that a ratio of 70% of scientists depart from Washington DC and 30% from Los Angeles is representative to account for longer journeys (but therefore probably also fewer scientists) from Midwestern, Southern USA or the West Coast. Assuming 50% of scientists from the USA depart from Washington and 50% from Los Angeles, would increase the emission of those by 17%. As the USA contribution to the overall carbon dioxide emissions of EGU travel is 20%, this uncertainty accounts for less than 4% in total.
 
 Likely small uncertainties in the assumptions arise from (to name a few)
 
-c) The exact departure location of scientists from China. We assume that all scientists from China fly in from Beijing. A flight from Shanghai emits less than 20% more tCO2e than a flight from Beijing. Assuming half of the scientists from China flew in from Shanghai, this would increase China's emission by 10%. Taking into account that China contributes 20% to the overall emissions of EGU travel, this uncertainty is less than 2% in total.
+c) The exact departure location of scientists from China: We assume that all scientists from China fly in from Beijing. A flight from Shanghai emits less than 20% more tCO2e than a flight from Beijing. Assuming half of the scientists from China flew in from Shanghai, this would increase China's emission by 10%. Taking into account that China contributes 20% to the overall emissions of EGU travel, this uncertainty is less than 2% in total.
 
 d) Similar arguments hold for the exact departure locations of scientists from Canada, Brazil, Australia, and India. Smaller countries like New Zealand, Taiwan, South Korea, contribute even less to the uncertainty.
 
@@ -103,8 +106,6 @@ f) Indirect rail journeys. We assume great circle distances of rail journeys suc
 
 # References
 
-A list of the unnamed references
-
 [1] [Cames, M, J Graichen, A Siemons, V Cook, 2015. *Emission Reduction Targets for International Aviation and Shipping*, European Parliament, Policy Department A: Economic and Scientific Policy](http://www.europarl.europa.eu/RegData/etudes/STUD/2015/569964/IPOL_STU(2015)569964_EN.pdf)
 
 [2] [International Air Transport Association, 2017. *20 Year Passenger Forecast*](https://www.iata.org/publications/store/Pages/20-year-passenger-forecast.aspx)
@@ -113,7 +114,7 @@ A list of the unnamed references
 
 [4] [Le Quere, C, et al., 2015. *Towards a culture of low-carbon research for the 21st century*, Tyndall Centre for Climate Change Research, Working paper 161.](https://tyndall.ac.uk/sites/default/files/twp161.pdf)
 
-[5] [Wynes, S, SD Donner, S Tannason, N Nabors, 2019. **Academic air travel has a limited influence on professional success**. **Journal of Cleaner Production**, 226, p. 959-967.](https://www.sciencedirect.com/science/article/pii/S0959652619311862)
+[5] [Wynes, S, SD Donner, S Tannason, N Nabors, 2019. *Academic air travel has a limited influence on professional success*. **Journal of Cleaner Production**, 226, p. 959-967.](https://www.sciencedirect.com/science/article/pii/S0959652619311862)
 
 [6] [Institute for Global Environmental Strategies, Aalto University, and D-mat ltd. 2019. *1.5-Degree Lifestyles: Targets and Options for Reducing Lifestyle Carbon Footprints*. Technical Report.Institute for Global Environmental Strategies, Hayama, Japan. ](https://wordpress.hotorcool.org/wp-content/uploads/2019/02/15_Degree_Lifestyles_MainReport.pdf)
 
@@ -122,3 +123,5 @@ A list of the unnamed references
 [8] [Goessling, S, P Hanna, J Higham, S Cohen, D Hopkins, 2019. *Can we fly less? Evaluating the ‘necessity’ of air travel*,**Journal of Air Transport Management**, 81](https://www.sciencedirect.com/science/article/pii/S0969699719303229)
 
 [9] [Higham, JES, Hopkins D, Orchiston C, 2019. *The work-sociology of academic aeromobility at remote institutions*, **Mobilities**, 14, p. 612-631](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)
+
+[10] [Ken Hiltner, 2016. *A Nearly Carbon Neutral Conference Model*](https://hiltner.english.ucsb.edu/index.php/ncnc-guide/)
