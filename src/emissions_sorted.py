@@ -60,18 +60,23 @@ for j in [30,34]:
 
 # A FEW COUNTRIES NUMBERED
 n_countries1 = [3,20,21,27,36]
-n_countries2 = [41,72,80,86,98,99]
+n_countries2 = [41,72,80,86,98,99,100,109]
 for n,j in enumerate(n_countries1):
-    ax.text(cnumpercent[j-1]+0.2, ccarbonpercent[j-1]+0.5,"{}".format(n+1), fontsize=5)
+    ax.text(cnumpercent[j-1]+0.2, ccarbonpercent[j-1]+0.5,chr(97+n), fontsize=5)
 
 for n,j in enumerate(n_countries2):
-    ax.text(cnumpercent[j-1]+0.2, ccarbonpercent[j]+0.5,"{}".format(n+len(n_countries1)+1), fontsize=5)
+    ax.text(cnumpercent[j-1]+0.2, ccarbonpercent[j]+0.5,chr(97+n+len(n_countries1)), fontsize=5)
 
 # RECTANGLES
 ax.fill_between(x,y1,y2,alpha=0.3,color="k")
 
-countrynames = ["{:d} {:s}".format(i+1,names[n]) for i,n in enumerate(n_countries1+n_countries2)]
+# LEGEND
+countrynames = ["      {:s}".format(names[n]) for i,n in enumerate(n_countries1+n_countries2)]
 ax.legend([l1,]*len(countrynames),countrynames,title="Countries",loc=4,handlelength=0,fontsize=7)
+
+for i,n in enumerate(n_countries1+n_countries2):
+    ax.text(74,45-3.52*i,chr(97+i),fontsize=7,color="k",zorder=10)
+
 
 ax.set_xlim(0.0,100.0)
 ax.set_ylim(0.0,100.0)

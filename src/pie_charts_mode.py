@@ -35,13 +35,13 @@ fig,(ax1,ax2) = plt.subplots(1,2,figsize=(12,4))
 
 # REALISTIC
 
-wedges1, texts1, autotexts1 = ax1.pie([C1lh,C1sh,C1ra],labels=["Long-haul","Short-haul","Rail"],autopct="%d%%",colors=colors)
+wedges1, texts1, autotexts1 = ax1.pie([C1lh,C1sh,C1ra],labels=["Long-haul","Short-haul","Rail"],autopct="%.1f%%",colors=colors)
 plt.setp(autotexts1, size=8, weight="bold", color="white")
 ax1.axis('equal')
 ax1.set_title("a) Travel to EGU19, total %d tC02e" % sum(S1),loc="left",weight="bold")
 
 # RAIL
-wedges2, texts2, autotexts2 = ax2.pie([C2lh,C2ra],labels=["Long-haul","Rail"],autopct="%d%%",colors=colors)
+wedges2, texts2, autotexts2 = ax2.pie([C2lh,C2ra],labels=["Long-haul","Rail"],autopct="%.1f%%",colors=colors)
 plt.setp(autotexts2, size=8, weight="bold", color="white")
 ax2.axis('equal')
 ax2.set_title("b) All journeys <1500km by rail, total %d tC02e" % sum(S2),loc="left",weight="bold")
