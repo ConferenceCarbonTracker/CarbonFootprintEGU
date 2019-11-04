@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/218331367.svg)](https://zenodo.org/badge/latestdoi/218331367)
 # Travel carbon footprint of the EGU General Assembly 2019
 *How much carbon dioxide does travelling to the annual EGU General Assembly emit and how it can be reduced to less than 5% of current emissions in short time.*
 
