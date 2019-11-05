@@ -55,8 +55,8 @@ ax.plot([0,0],[0,0],"C3o-",ms=mss[3], lw=lws[3], label="100-500")
 ax.plot([0,0],[0,0],"C3o-",ms=mss[4], lw=lws[4], label="500-1000")
 ax.plot([0,0],[0,0],"C3o-",ms=mss[5], lw=lws[5], label="1000+")
 
-ax.set_title("Participants of EGU 2019",loc="left",fontsize=20)
-plt.legend(loc=4,title="# of participants")
+ax.set_title("Travel routes to EGU19",loc="left")
+plt.legend(loc=1,title="# of participants")
 
 plt.tight_layout()
 
