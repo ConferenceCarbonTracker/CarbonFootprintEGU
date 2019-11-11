@@ -131,7 +131,7 @@ f) Indirect rail journeys. We assume great circle distances of rail journeys suc
 
 [10] [Ken Hiltner, 2016. *A Nearly Carbon Neutral Conference Model*](https://hiltner.english.ucsb.edu/index.php/ncnc-guide/)
 
-[11] [Betson, M, 2003. *Scientists contribute to greenhouse-gas emissions*, **Nature News**, doi:10.1038/news031208-13](https://dx.doi.org/10.1038/news031208-13)
+[11] [Mason, B, 2003. *Scientists contribute to greenhouse-gas emissions*, **Nature News**, doi:10.1038/news031208-13](https://dx.doi.org/10.1038/news031208-13)
 
 [12] [Lester, B, 2007. *Greening the Meeting*. **Science**, 318, 5847, pp. 36-38, doi:10.1126/science.318.5847.36](https://dx.doi.org/10.1126/science.318.5847.36)
 
