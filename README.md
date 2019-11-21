@@ -82,9 +82,24 @@ Rail journeys are assumed to emit 30gCO2e / km / person.
 [15](https://www.eea.europa.eu/data-and-maps/indicators/energy-efficiency-and-specific-co2-emissions/energy-efficiency-and-specific-co2-9),
 [16](https://dataportal.orr.gov.uk/media/1114/rail-infrastructure-assets-environmental-2017-18.pdf)]
 
-Short-haul flights are assumed to emit 200gCO2e / km / person, long-haul flights are assumed to emit 250gCO2e / km / person
-[[17](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf),
-[18](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf)]. We assume economy class for every participant.
+Short-haul flights are assumed to emit 200gCO2e / km / person, long-haul flights are assumed to emit 250gCO2e / km / person. 
+These values take into account factors that typically decrease the per km emissions for long-haul flights such as [[17](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf),
+[18](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf),[19](https://www.myclimate.org/fileadmin/user_upload/myclimate_-_home/01_Information/01_About_myclimate/09_Calculation_principles/Documents/myclimate-flight-calculator-documentation_EN.pdf)]
+
+- increased fuel consumption for take-off
+- decreased detour factors for longer flights
+- average aircraft types and their fuel consumption
+- average passenger load factors for average airlines.
+
+Additionally, we take into account factors that typically increase the per km emissions for longer flights, which on average tend to outweigh the factors from above [[17](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf)]
+
+- increased fuel weight for longer flights
+- increased flight altitudes depending on distance covered
+- indirect CO2 effects on ozone and cloud formation depending on flight altitude [[20](https://doi.org/10.1007/s11367-018-1556-3)].
+
+Some emission calculators do not include all of the factors above (e.g. [18](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf) and [19](https://www.myclimate.org/fileadmin/user_upload/myclimate_-_home/01_Information/01_About_myclimate/09_Calculation_principles/Documents/myclimate-flight-calculator-documentation_EN.pdf)). To our knowledge, the atmosfair calculator [[17](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf)] is the most sophisticated. It includes the indirect CO2 effects not just as a factor 2, as an approximation recommended by [Jungbluth and Meili, 2019 ([20])](https://doi.org/10.1007/s11367-018-1556-3) but makes this factor flight altitude dependent (as recommended as a next order accuracy therein). Additionally, atmosfair's calculator uses a database which analysed the aircraft types, their fuel consumption and passenger loads typically flown on specific routes. We therefore obtained our assumed emissions values by searching for typical flight routes to Vienna and simplified the results.
+
+We assume economy class for every participant.
 
 Carbon emissions of live-streaming are assumed to be negligible.
 
@@ -92,9 +107,7 @@ Carbon emissions of live-streaming are assumed to be negligible.
 
 Sensitivity to the assumptions is fairly low. Main contributions to the uncertainty of the carbon footprint are
 
-a) The carbon dioxide equivalent emissions of long-haul flights: These are assumed to be 250gCO2e / km / person, which is a representative average with less than 10% error [[17](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf),
-[18](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf)]
-. The emissions of individual flights have much higher uncertainty and depend on number of passengers, airline / flight class, type of aircraft, potential detours, flight height, and weather conditions. 
+a) The carbon dioxide equivalent emissions of long-haul flights: These are assumed to be 250gCO2e / km / person, which is a representative average with probably less than 10% error [[17](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf)]. The emissions of individual flights have much higher uncertainty and depend on number of passengers, airline / flight class, type of aircraft, potential detours, flight altitude, and weather conditions. The carbon dioxide equivalent emissions of super long-haul flights (>10,000km) are usually higher due to additional fuel weight and flight altitude, although increased fuel consumption from start and detour contribute less for such long distances.
 
 b) The exact departure location of scientists from USA: A flight from Los Angeles to Vienna emits 1.8 times more tCO2e than a flight from New York City to Vienna [[17](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf)]. We assume that a ratio of 70% of scientists depart from Washington DC and 30% from Los Angeles is representative to account for longer journeys (but therefore probably also fewer scientists) from Midwestern, Southern USA or the West Coast. Assuming 50% of scientists from the USA depart from Washington and 50% from Los Angeles, would increase the emission of those by 17%. As the USA contribution to the overall carbon dioxide emissions of EGU travel is 20%, this uncertainty accounts for less than 4% in total.
 
@@ -105,7 +118,7 @@ d) Similar arguments hold for the exact departure locations of scientists from C
 e) The carbon dioxide equivalent emissions of rail journeys. These are assumed to be 30gCO2e / km / person [[13](http://ecopassenger.hafas.de/hafas-res/download/Ecopassenger_Methodology_Data.pdf),
 [14](http://www.cer.be/sites/default/files/publication/Facts%20and%20figures%202014.pdf),
 [15](https://www.eea.europa.eu/data-and-maps/indicators/energy-efficiency-and-specific-co2-emissions/energy-efficiency-and-specific-co2-9),
-[16](https://dataportal.orr.gov.uk/media/1114/rail-infrastructure-assets-environmental-2017-18.pdf)], which can be considered as an European average. Emissions from individual trains can, however, be lower by an order of magnitude depending on the type of train (electric, diesel, highspeed or regional), the local energy mix (for electric trains), number of passengers, etc. The highspeed train in France is estimated to emit only 3gCO2e / km  / person [[19](https://en.oui.sncf/en/help-en/calculation-of-co2-emissions-on-your-train-journey)], due to a very low carbon electric grid, but average trains in the UK emit 40gCO2e / km / person [[16](https://dataportal.orr.gov.uk/media/1114/rail-infrastructure-assets-environmental-2017-18.pdf)] as many services are not electrified and diesel trains are used instead. As the contribution of rail journeys to the overall carbon footprint of EGU-related travel is negligible (<1%), the uncertainty here is negligible too.
+[16](https://dataportal.orr.gov.uk/media/1114/rail-infrastructure-assets-environmental-2017-18.pdf)], which can be considered as an European average. Emissions from individual trains can, however, be lower by an order of magnitude depending on the type of train (electric, diesel, highspeed or regional), the local energy mix (for electric trains), number of passengers, etc. The highspeed train in France is estimated to emit only 3gCO2e / km  / person [[21](https://en.oui.sncf/en/help-en/calculation-of-co2-emissions-on-your-train-journey)], due to a very low carbon electric grid, but average trains in the UK emit 40gCO2e / km / person [[16](https://dataportal.orr.gov.uk/media/1114/rail-infrastructure-assets-environmental-2017-18.pdf)] as many services are not electrified and diesel trains are used instead. As the contribution of rail journeys to the overall carbon footprint of EGU-related travel is negligible (<1%), the uncertainty here is negligible too.
 
 f) Indirect rail journeys. We assume great circle distances of rail journeys such that we likely underestimate the actually travelled distance. However, this error is within a factor of 2. Since the contribution of rail travel to the overall carbon emissions is very small, the resultant uncertainty in the overall budget is negligible.
 
@@ -143,8 +156,12 @@ f) Indirect rail journeys. We assume great circle distances of rail journeys suc
 
 [16] [UK Office of Rail and Road ORR, 2018: *Rail infrastructure, assets and environmental 2017-18 Annual Statistical Release*](https://dataportal.orr.gov.uk/media/1114/rail-infrastructure-assets-environmental-2017-18.pdf)
 
-[17] [Atmosfair, 2016. *atmosfair Flight Emissions Calculator: Documentation of the Method and Data*](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf)
+[17] [Atmosfair, 2016. *atmosfair Flight Emissions Calculator: Documentation of the Method and Data*.](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf)
 
 [18] [International Civil Aviation Organization ICAO, 2017. *ICAO Carbon Emissions Calculator Methodology, Version 10*](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf)
 
-[19] [OUI SNCF, 2018. *Calculation of CO2 emissions on your train journey*](https://en.oui.sncf/en/help-en/calculation-of-co2-emissions-on-your-train-journey)
+[19] [Foundation myclimate, 2019. *The myclimate Flight Emission Calculator*.](https://www.myclimate.org/fileadmin/user_upload/myclimate_-_home/01_Information/01_About_myclimate/09_Calculation_principles/Documents/myclimate-flight-calculator-documentation_EN.pdf)
+
+[20] [Jungbluth, N and C Meili, 2019. *Recommendations for calculation of the global warming potential of aviation including the radiative forcing index*. **Int J Life Cycle Assess**, 24, 404](https://doi.org/10.1007/s11367-018-1556-3)
+
+[21] [OUI SNCF, 2018. *Calculation of CO2 emissions on your train journey*.](https://en.oui.sncf/en/help-en/calculation-of-co2-emissions-on-your-train-journey)
